@@ -850,7 +850,7 @@ ul.conta li a:hover {
 .subsci_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #d96226;
+     background-color: #7e956b;
      color: #fff;
      max-width: 270px;
      width: 100%;
@@ -862,7 +862,7 @@ ul.conta li a:hover {
 }
 
 .subsci_btn:hover {
-     background-color: #000000;
+     background-color: #7a1c1c;
      transition: ease-in all 0.5s;
      color: #fff;
 }
