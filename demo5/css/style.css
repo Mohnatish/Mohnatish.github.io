@@ -503,7 +503,7 @@ ul.conta_top li a {
 #carouselExampleIndicators .carousel-control-next {
      width: 66px;
      height: 66px;
-     background-color: #619164;
+     background-color: #1e1595;
      color: #000000;
      font-size: 20px;
      opacity: 1;
@@ -541,7 +541,7 @@ ul.conta_top li a {
 /** about section **/
 
 .about {
-     background: #fff;
+     background: #5032a8;
      padding: 90px 0;
      margin-top: 180px;
      position: relative;
@@ -595,7 +595,7 @@ ul.conta_top li a {
 }
 
 .quality-box {
-     background: #fff;
+     background: #4e0f9b;
      height: 262px;
      display: flex;
      align-items: center;
@@ -662,7 +662,7 @@ ul.conta_top li a {
 .main_form .send_btn {
      font-size: 18px;
      transition: ease-in all 0.5s;
-     background-color: #537b56;
+     background-color: #0d2372;
      text-transform: uppercase;
      color: #fff;
      max-width: 202px;
@@ -850,7 +850,7 @@ ul.conta li a:hover {
 .subsci_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #7e956b;
+     background-color: #1d0f6b;
      color: #fff;
      max-width: 270px;
      width: 100%;
@@ -862,7 +862,7 @@ ul.conta li a:hover {
 }
 
 .subsci_btn:hover {
-     background-color: #7a1c1c;
+     background-color: #1b38c7;
      transition: ease-in all 0.5s;
      color: #fff;
 }
