@@ -252,7 +252,7 @@ button {
      line-height: 48px;
      transition: ease-in all 0.5s;
      font-weight: 400;
-     text-align: up;
+     text-align: center;
      color: #fff;
      z-index: 999;
      border-radius: 30px;
