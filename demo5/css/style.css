@@ -264,16 +264,16 @@ button {
      transition: ease-in all 0.5s;
 }
 
-.text_align_left {
-     text-align: left;
-}
-
 .text_align_right {
      text-align: right;
 }
 
-.text_align_center {
-     text-align: center;
+.text_align_left {
+     text-align: left;
+}
+
+.text_align_up {
+     text-align: up;
 }
 
 .img_responsive {
