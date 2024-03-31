@@ -100,7 +100,7 @@ html,body{height: 100%;}
 /* section-header */
 .section-header{
     position: relative;
-    text-align: center;
+    text-align: right;
 }
 .section-header h2{
     position: relative;
@@ -223,7 +223,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .header-area{position: absolute;top:0;left:0;width: 100%;z-index: 99;}
 
 /*.welcome-hero-txt*/
-.welcome-hero-txt{text-align: center;padding:290px 0 372px;}
+.welcome-hero-txt{text-align: right;padding:290px 0 372px;}
 .welcome-hero-txt h2 {
     font-size: 42px;
     color: #fff;
@@ -309,7 +309,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     height: 60px;
     line-height: 60px;
     width: 50px;
-    text-align: center;
+    text-align: right;
     font-family: "Flaticon";
     pointer-events: none;
     border: transparent;
@@ -328,7 +328,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .service { padding: 260px 0 87px;}
 
 .single-service-item{
-    text-align: center;
+    text-align: right;
     padding:55px 30px 60px;
     border-radius: 3px;
     margin-bottom: 30px;
@@ -449,7 +449,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*single-testimonial-box */
 .single-testimonial-box  {
     padding: 50px 30px 57px;
-    text-align: center;
+    text-align: right;
     border: 1px solid #dadfe9;
     overflow-x: hidden;
     -webkit-transition: .3s; 
@@ -673,7 +673,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     width: 40px;
     line-height: 40px;
     height: 40px;
-    text-align: center;
+    text-align: right;
     font-size: 20px;
     cursor: pointer;
     color: #fff;
