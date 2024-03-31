@@ -23,13 +23,14 @@ font-family: 'Rufina', serif;
 10. Blog
 11. Contact
 ==========================================
-JA VIELÄKIN EN OLE LÖYTYNYT .NUMBAR TIEDOSTA ETTÄ VOISIN MUOKATA SITÄ - MUUTEN OLEN VAIHTANUT KAIKKI BACKGROUNG SEKÄ ALING COLORS - BOGDAN*/
+JA VIELÄKIN EN OLE LÖYTYNYT .NUMBAR TIEDOSTA ETTÄ VOISIN MUOKATA SITÄ - MUUTEN OLEN VAIHTANUT KAIKKI BACKGROUNG SEKÄ ALING COLORS - BOGDAN
+Padding vaihdettu 10 - muuten ei näy mitään :)*/
 
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
 *{
-    padding: 35px;
+    padding: 10px;
     margin: 0;
 }
 
