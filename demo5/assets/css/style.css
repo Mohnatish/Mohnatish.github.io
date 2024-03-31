@@ -29,7 +29,7 @@ JA VIELÄKIN EN OLE LÖYTYNYT .NUMBAR TIEDOSTA ETTÄ VOISIN MUOKATA SITÄ - MUUT
 		1.General css (Reset code)
 --------------------------------------*/
 *{
-    padding: 0;
+    padding: 35px;
     margin: 0;
 }
 
