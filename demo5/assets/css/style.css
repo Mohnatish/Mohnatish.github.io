@@ -331,7 +331,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8afa4e;}
 .single-service-item{
     text-align: right;
     padding:55px 30px 60px;
-    border-radius: 3px;
+    border-radius: 25px;
     margin-bottom: 30px;
     border: 1px solid #dadfe9;
     -webkit-transition: .3s linear; 
