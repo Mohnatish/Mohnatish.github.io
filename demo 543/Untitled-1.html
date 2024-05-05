@@ -1,62 +1,43 @@
-
 <!DOCTYPE html>
-<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пример Меню</title>
-    <style>
-        .menu {
-            display: flex;
-            justify-content: space-around;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            background-color: #333;
-        }
-        .menu li {
-            padding: 10px 20px;
-        }
-        .menu a {
-            text-decoration: none;
-            color: white;
-            font-size: 16px;
-        }
-        .menu a:hover {
-            color: #f0f0f0;
-            text-decoration: underline;
-        }
-        #photo-container {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-        .photo {
-            width: 30%;
-            padding: 10px;
-        }
-        .photo img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>Saran blogi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="#home">Главная</a></li>
-            <li><a href="#services">Услуги</a></li>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h1>О нас</h1>
-        <p>Здесь вы можете узнать больше о нашей компании, нашей миссии, истории и команде.</p>
-        <div id="photo-container">
-            <!-- Фотографии будут загружены сюда -->
+    <header>
+        <h1>Saran blogi</h1>
+    </header>
+    <main>
+        <div class="articles-container">
+            <article>
+                <h2>Ensimmäinen päivä uudessa studiolla</h2>
+                <p>Kun Sara Strong avasi ovensa uuteen fitness-studioonsa, hän tunsi jännitystä.</p>
+                <p>Uudet asiakkaat tulivat tutustumaan tiloihin ja kokeilemaan ensimmäisiä tunteja.</p>
+                <p>Sara oli onnellinen nähdessään asiakkaiden iloiset kasvot.</p>
+                <p>Hän oli työskennellyt kovasti tämän päivän eteen.</p>
+                <p>Ensimmäinen päivä oli osoitus kaikista niistä ponnisteluista, jotka hän oli tehnyt.</p>
+                <p>Sara tunsi suurta ylpeyttä, kun hän sulki studion ovet illalla.</p>
+            </article>
+            <article>
+                <h2>Haasteiden kohtaaminen</h2>
+                <p>Sara huomasi aamulla saapuessaan, että studiolla oli suuri vesivuoto.</p>
+                <p>Vesi uhkasi kastella koko lattian, mikä olisi merkinnyt suurta vahinkoa.</p>
+                <p>Hän toimi nopeasti ilmoittaakseen asiakkaille ja järjesti väliaikaisesti tunteja puistossa.</p>
+                <p>Asiakkaat arvostivat Saran nopeaa toimintaa ja avoimuutta.</p>
+                <p>Tilanne oli haastava, mutta Sara osoitti johtajuutta ja sopeutumiskykyä.</p>
+                <p>Lopulta vuoto korjattiin, ja toiminta studiolla jatkui normaalisti.</p>
+            </article>
+            <article>
+                <h2>Innovatiivisuus ja kasvu</h2>
+                <p>Markkinoiden kiristyessä Sara tiesi, että oli aika uudistua.</p>
+                <p>Hän suunnitteli uusia ryhmäliikuntakonsepteja, jotka yhdistäisivät tanssin ja voimaharjoittelun.</p>
+                <p>Yhdessä ohjaajiensa kanssa he kehittivät sarjan uusia tunteja.</p>
+                <p>Uusien tuntien lanseeraus oli jännittävä tapahtuma, joka houkutteli paljon uusia asiakkaita.</p>
+                <p>Sara oli tyytyväinen nähdessään, kuinka uudet ideat herättivät innostusta.</p>
+                <p>Studion maine innovatiivisena ja edistyksellisenä paikkana vahvistui.</p>
+            </article>
         </div>
-    </section>
+    </main>
 </body>
 </html>

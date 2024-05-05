@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #49d076;
+    color: #2492a1;
+}
+
+header {
+    background-color: #1ac99d;
+    color: rgb(63, 132, 23);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+article {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #99c78b;
+}
+
+article h2 {
+    color: #bde215;
+}
