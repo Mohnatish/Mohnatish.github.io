@@ -1,39 +1,24 @@
-#blog {
+#blogi {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
     margin: 20px auto;
     padding: 20px;
-    max-width: 800px; /* Ограничивает ширину блога для лучшей читаемости */
+    max-width: 800px; /* Rajoittaa blogin leveyttä paremman luettavuuden vuoksi */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.blog-header {
+.blogi-otsikko {
     background-color: #333;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
-.blog-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.blog-header nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.blog-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.blog-main article {
+.blogi-paa article {
     margin-bottom: 20px;
     padding: 0 20px;
 }
 
-.blog-main article h3 {
+.blogi-paa article h3 {
     color: #333;
 }
