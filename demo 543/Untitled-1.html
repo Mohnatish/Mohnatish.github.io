@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример Меню</title>
+    <style>
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+        .menu li {
+            padding: 10px 20px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .menu a:hover {
+            color: #f0f0f0;
+            text-decoration: underline;
+        }
+        #photo-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .photo {
+            width: 30%;
+            padding: 10px;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h1>О нас</h1>
+        <p>Здесь вы можете узнать больше о нашей компании, нашей миссии, истории и команде.</p>
+        <div id="photo-container">
+            <!-- Фотографии будут загружены сюда -->
+        </div>
+    </section>
+</body>
+</html>
