@@ -1,0 +1,488 @@
+<!doctype html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Strong</title>
+    <script src="Sara strong.js" defer></script>
+</head>
+<body>
+<nav>
+    <ul class="sidebar">
+        <li onclick="closeSidebar()">
+            <a href="#1">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </a>
+        </li>
+        <li><a href="#Ohjelmat">Harjoitusohjelmat</a></li>
+        <li><a href="#Ruokavinkit">Ruokavinkit</a></li>
+        <li><a href="#Kalenteri">Kalenteri</a></li>
+        <li><a href="#Blogi">Blogi</a></li>
+    </ul>
+    <ul class="main-menu">
+        <li><a href="#Etusivu"><img src="images/SaraStrongLogo.png" class="logo"></a></li>
+        <li class="hideOnMobile"><a href="#Ohjelmat">Harjoitusohjelmat</a></li>
+        <li class="hideOnMobile"><a href="#Ruokavinkit">Ruokavinkit</a></li>
+        <li class="hideOnMobile"><a href="#Kalenteri">Kalenteri</a></li>
+        <li class="hideOnMobile"><a href="#Blogi">Blogi</a></li>
+        <li class="menu-button" onclick="openSidebar()">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+<!--Nettisivun Etusivu-->
+
+  <div class="etusivu" id="Etusivu">
+    <video class="etusivuVideo" src="images/gym-video.mp4" autoplay loop playsinline muted></video>
+    <div class="overlay">
+      <div class="Etusivuteksti">
+        <h1 class="Nimi">Sara Strong</h1>
+        <h3 class="Studio">Fitness Studio</h3>
+        <h5 class="Motto">Voimaa liikkeestä, elämää tasapainosta.</h5>
+      </div>
+    </div>
+  </div>
+
+<!--Ohjelmat kohta mistä löydät videot ja vinkit erillaisiin liikkeisiin-->
+<header><h2 class="ohjelmatIsoTeksti">Harjoitusohjelmat</h2></header>
+   
+<div class="ohjelmat" id="Ohjelmat">
+    
+    <div class="grid-item">
+     <img class="kuva1" src="images/Kyykky tangolla.jpeg" alt="testikuva">
+     <h4 class="ohje1 ohjeteksti">Kyykky tangolla </h4>
+     <p class="ohjeselitys1 ohjeteksti">Kyykky tangolla on harjoitus, joka keskittyy alavartalon voiman ja kestävyyden kehittämiseen, mukaan lukien pakarat, reidet ja etureidet. 
+      Suositellaan tekemään 2-4 sarjaa, joissa on 8-12 toistoa kussakin, optimaalisen vaikutuksen. 
+      <a href="https://www.youtube.com/watch?v=mEsvBsjkkM4" target="_blank">Katso Video...</a></p>
+    </div>
+
+    <div class="grid-item">
+     <img class="kuva2" src="images/vatsalihakset.jpg" alt="testikuva">
+     <h4 class="ohje1 ohjeteksti">Vatsalihasrutistukset</h4>
+     <p class="ohjeselitys2 ohjeteksti">Vatsalihasrutistukset ovat vatsalihasten harjoitus, joka aktivoi etu- ja sivuvatsalihakset. 
+      Suositeltavaa on tehdä 2-3 sarjaa vatsalihasrutistuksia, jokaisessa sarjassa 10-20 toistoa riippuen fyysisestä kunnostasi ja harjoituksen tavoitteista. 
+      Vatsalihasrutistukset auttavat vahvistamaan vatsalihaksia, parantamaan ryhtiä ja keskivartalon voimaa. On tärkeää suorittaa harjoitus oikein, hallita hengitystä ja välttää liian nopeita liikkeitä.
+      <a href="https://www.youtube.com/watch?v=5adbv6NwDoY" target="_blank">Katso Video...</a> </p>
+    </div>
+
+    <div class="grid-item">
+      <img class="kuva3" src="images/jalkojen venytys.jpg" alt="testikuva">
+      <h4 class="ohje1 ohjeteksti">Istuva jalkojen venytys </h4>
+      <p class="ohjeselitys3 ohjeteksti">Harjoituksen "Istuva jalkojen venytys" tavoitteena on parantaa jalkojen ja selän lihasten joustavuutta ja venytystä. 
+      On suositeltavaa pitää jokaista venytystä 20-30 sekuntia ja toistaa 2-3 kertaa parhaan tuloksen saavuttamiseksi.  
+      Tämä harjoitus parantaa sääri- ja selkälihasten joustavuutta ja venytystä, auttaa ehkäisemään vammoja ja parantamaan yleistä hyvinvointiasi. 
+      <a href="https://www.youtube.com/watch?v=TLKcfxA-7eU" target="_blank">Katso Video...</a></p>
+    </div>
+    
+    <div class="grid-item">
+      <video class="ohjeVideo" src="images/V1.mp4" alt="testikuva" autoplay loop playsinline muted></video>
+      <h4 class="ohje1 ohjeteksti">Kahvakuularyntäys</h4>
+      <p class="ohjeselitys4 ohjeteksti">Kaikki kehon lihakset osallistuvat harjoitukseen. 
+      Ota kahvakuula yhdellä kädellä lähemmäs kahvan reunaa, pidä rannetta suorana. Taivuta polvia ja 
+      aseta ne leveämmälle kuin olkapäät. Seiso suorassa kevyellä lantion kallistuksella ja vedä lapaluita yhteen. 
+      Työnnä kahvakuulaa lonkkien avulla ylöspäin ja vedä se sitten kohti itseäsi ja ylöspäin. Kun kahvakuula on pään tasolla, 
+      työnnä käsi eteenpäin ja ylöspäin, jotta se laskeutuu tasaisesti kyynärvarsille. Laske kahvakuula niin, että se liukuu pois kyynärvarrelta, 
+      taivuttamalla kyynärpää ja polvet. 
+      <a href="https://www.youtube.com/watch?v=TLKcfxA-7eU" target="_blank">Katso Video...</a></p>
+    </div>
+
+    <div class="grid-item">
+      <video class="ohjeVideo" src="images/V3.mp4" alt="testikuva" autoplay loop playsinline muted></video>
+      <h4 class="ohje1 ohjeteksti">Tämä on placeholder </h4>
+      <p class="ohjeselitys5 ohjeteksti">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum maiores reprehenderit
+      quos assumenda numquam eius asperiores labore sequi deleniti odit nisi expedita temporibus minus officiis, animi quae, magni vel!
+      <a href="https://www.youtube.com/watch?v=TLKcfxA-7eU" target="_blank">Katso Video...</a></p>
+    </div>
+
+    <div class="grid-item">
+      <video class="ohjeVideo" src="images/V4.mp4" alt="testikuva" autoplay loop playsinline muted></video>
+      <h4 class="ohje1 ohjeteksti">Tämä on placeholder </h4>
+      <p class="ohjeselitys6 ohjeteksti">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, ratione maiores! Repudiandae dolorum sit aliquid odio fugiat, sint assumenda at architecto eaque,
+      voluptas asperiores consequuntur facere officia deleniti voluptate aspernatur! 
+      <a href="https://www.youtube.com/watch?v=TLKcfxA-7eU" target="_blank">Katso Video...</a></p>
+    </div>
+</div>
+
+<!--Ruokavinkit ja reseptit-->
+
+<header><h2 class="ruokavinkitIsoTeksti">Ruokavinkit ja reseptit</h2></header>
+<div class="reseptit" id="Ruokavinkit">
+  <div class="grid-reseptit">
+   <img class="reseptikuva" src="images/smoothie.jpg" alt="kuva reseptistä">
+    <h4 class="reseptiIsoTeksti">Aamun Aloitus Smoothie</h4>
+      <ul class="reseptiteksti">
+        <li><strong>Ainekset</strong></li>
+        <li>1 banaani</li>
+        <li>1/2 kupillista pakastettuja marjoja</li>
+        <li>1 rkl chia-siemeniä</li>
+        <li>1 kupillinen pinaattia</li>
+        <li>1 kupillinen mantelimaitoa</li>
+        <li>1 tl maca-jauhetta</li>
+      </ul>
+    <h4>Valmistus</h4>
+    <ul class="reseptiteksti">
+      <li>1. Laita kaikki ainekset blenderiin.</li>
+      <li>2. Sekoita kunnes tasainen</li>
+     <li>3. Nauti aamun energiaboostista!</li>
+   </ul>
+  </div>
+  <div class="grid-reseptit">
+    <img class="reseptikuva" src="images/Kanasalaatti.jpg" alt="kuva reseptistä">
+    <h4 class="reseptiIsoTeksti">Kanasalaatti</h4>
+    <ul class="reseptiteksti">
+      <li><strong>Ainekset</strong></li>
+      <li>400g grillattua kanaa, suikaloituna</li>
+      <li>1 suuri avokado, kuutiotuna</li>
+      <li>2 kuppia sekoitettuja vihreitä lehtiä</li>
+      <li>1/2 kurkkua, viipaloituna</li>
+      <li>1/4 punasipuli, ohuina viipaleina</li>
+      <li>kourallinen kirsikkatomaatteja, puolitettuna</li>
+      <li>2rkl oliiviöljyä</li>
+      <li>1rkl balsamiviinietikkaa</li>
+     <li>Suolaa ja pippuria maun mukaan</li>
+   </ul>
+    <h4>Valmistus</h4>
+   <ul class="reseptiteksti">
+      <li>1.	Sekoita suuressa kulhossa vihreät lehdet, avokado, kurkku, punasipuli ja kirsikkatomaatit.</li>
+      <li>2.	Lisää grillattu kana.</li>
+     <li>3.	Mausta oliiviöljyllä, balsamiviinietikalla, suolalla ja pippurilla.</li>
+      <li>4.	Sekoita varovasti ja tarjoile.</li>
+    </ul>
+  </div>
+  <div class="grid-reseptit">
+    <video controls class="ruokaVideo" src="images/Ruokavinkit video.mp4" alt="video ruokavinkeistä"></video>
+    <h4 class="reseptiIsoTeksti">Ravitsemusvinkit</h4>
+    <p class="ravitsemusvinkit reseptiteksti"><strong>1.Kokonaiset, Prosessoimattomat Ruoka-aineet:</strong> Suosi ruokavaliossasi kokonaisia,
+     prosessoimattomia ruoka-aineita, kuten tuoreita hedelmiä ja vihanneksia, täysjyväviljoja,
+      pähkinöitä, siemeniä ja laadukkaita proteiininlähteitä</p>
+   <p class="ravitsemusvinkit reseptiteksti"><strong>2.Riittävä Veden Juonti:</strong> Pidä huolta nestetasapainostasi juomalla riittävästi vettä päivän aikana.
+     Veden juominen auttaa ylläpitämään energiaa ja tukee aineenvaihduntaa</p>
+   <p class="ravitsemusvinkit reseptiteksti"><strong>3.Tasapainoiset Ateriat:</strong> Pyri koostamaan jokainen ateriasi niin, että se sisältää hyviä rasvoja, 
+    proteiinia ja hitaasti imeytyviä hiilihydraatteja. Tämä auttaa pitämään verensokerin tasaisena ja 
+    välttämään energian laskuja.</p>
+   <p class="ravitsemusvinkit reseptiteksti"><strong>4.Snackit Järkevästi:</strong> Valitse terveellisiä välipaloja, kuten hedelmiä, vihanneksia dippikastikkeiden kera,
+     pähkinöitä tai jogurttia, kun kaipaat jotain pientä syötävää.</p>
+  </div>
+</div>
+
+
+
+<!--Kalenteri-->
+
+
+<div class="calendar" id="Kalenteri">
+  <h1 Class="kalenteriIsoTeksti">Tapahtumakalenteri</h1>
+    <div class="event">
+      <h2>Kehonpainotreeni</h2>
+        <p>Päivämäärä: Maanantai, 3. huhtikuuta<br>
+         Aika: 08:00 - 09:00<br>
+         Vetäjä: Sara Strong<br>
+         Kuvaus: Intensiivinen treeni, joka keskittyy kehonpainoharjoitteisiin. Sopii kaikille kuntoilutasoille.</p>
+    </div>
+  <div class="event">
+    <h2>Jooga Flow</h2>
+      <p>Päivämäärä: Keskiviikko, 5. huhtikuuta<br>
+         Aika: 17:00 - 18:00<br>
+         Vetäjä: Anni Harmonia<br>
+         Kuvaus: Dynaaminen joogatunti, joka parantaa liikkuvuutta ja mielenrauhaa.</p>
+  </div>
+  <div class="event">
+    <h2>Kuntopyöräily</h2>
+      <p>Päivämäärä: Lauantai, 8. huhtikuuta<br>
+         Aika: 10:00 - 11:00<br>
+         Vetäjä: Timo Tempo<br>
+         Kuvaus: Energiaa pursuava spinning-tunti, joka polttaa kaloreita ja parantaa kestävyyttä.</p>
+  </div>
+  <div class="event">
+    <h2>Ravintotyöpaja: "Syö Voimakkaasti"</h2>
+      <p>Päivämäärä: Sunnuntai, 16. huhtikuuta<br>
+         Aika: 14:00 - 16:00<br>
+         Vetäjä: Rita Ravinto<br>
+         Kuvaus: Opi kuinka voit tukea treenaamistasi oikeanlaisella ravinnolla. Työpajassa keskitytään terveellisen ja tasapainoisen ruokavalion suunnitteluun.</p>
+  </div>
+  <div class="event">
+    <h2>Mindfulness ja Meditaatio</h2>
+      <p>Päivämäärä: Lauantai, 22. huhtikuuta<br>
+         Aika: 09:00 - 10:30<br>
+         Vetäjä: Leena Lepo<br>
+         Kuvaus: Opettele mindfulness-tekniikoita ja meditaation perusteita, jotka auttavat hallitsemaan stressiä ja lisäämään keskittymiskykyä.</p>
+  </div>
+  <div class="event">
+    <p>Ilmoittautuminen paikanpäällä tai voit varata paikan soittamalla.</p>
+           
+  </div>
+</div>
+
+    <!--BLOGI-->
+<section id="blog">
+  <!--headign------------>
+<div class="blog-heading" id="Blogi">
+<span>Inspiraatio ja Suoritus</span>
+<h3>Saras Blog</h3>
+</div>
+<!--blog-container-->
+<div class="blog-container">  
+  <!--box-1-->
+<div class="blog-box">
+    <!--img-->
+  <div class="blog-img"> 
+    <img src="images/BlogBox1image.jpg" alt="blogikuva">
+  </div>
+      <!--Text-->
+    <div class="blog-text">
+      <span>Inspiraatio</span>
+      <a class="blog-title">Matka Voimakkaammaksi</a>
+      <p>Viime kesänä päätin asettaa itselleni haasteen: nostaa henkilökohtainen ennätykseni maastavedossa.
+        Aluksi en uskonut, että saavuttaisin tavoitteen, mutta pikkuhiljaa aloin nähdä tuloksia.
+        Viikoittainen treeni, oikea ravinto ja riittävä palautuminen olivat avainasemassa.
+        Vaikka välillä oli vaikeita hetkiä, yhteisön tuki auttoi jatkamaan eteenpäin. Lopulta, kun pystyin nostamaan uuden ennätyksen, tunsin valtavaa ylpeyttä.
+        Muista: älä aliarvioi pienien askelien voimaa kohti tavoitteita!</p>
+        <button onclick="openModal('modal1')">Lue Lisää</button>
+    </div>
+</div>
+<!--Modal Ikkuna 1-->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <img src="images/BlogBox1image.jpg" alt="blogikuva">
+      <h2>Matka Voimakkaammaksi</h2>
+      <p>Kun siirryin tiukempaan treeniohjelmaan, jouduin muuttamaan myös ruokailutottumuksiani.
+        Halusin varmistaa, että kehoni saa tarpeeksi polttoainetta toipuakseen ja kehittyäkseen.
+        Painotin proteiineja, hyviä rasvoja ja vihanneksia jokaisella aterialla.
+        Aluksi tämä tuntui haastavalta, mutta suunnitelmallisuus teki siitä helpompaa.
+        Vähitellen opin löytämään uusia lempireseptejä ja välipaloja.
+        Nyt ruokavalio tuntuu luontevalta osalta päivittäistä elämääni ja auttaa pysymään energisenä ja vahvana.</p>
+  </div>
+</div>
+  <!--box-2-->
+  <div class="blog-box">
+    <!--img-->
+    <div class="blog-img"> 
+      <img src="images/Blog Box2 Image.jpg" alt="blogikuva">
+    </div>
+    <!--Text-->
+    <div class="blog-text">
+      <span>Näm Näm</span>
+      <a class="blog-title">Ruokavalio Reilaan</a>
+      <p> Kun siirryin tiukempaan treeniohjelmaan, jouduin muuttamaan myös ruokailutottumuksiani.
+        Halusin varmistaa, että kehoni saa tarpeeksi polttoainetta toipuakseen ja kehittyäkseen.
+        Painotin proteiineja, hyviä rasvoja ja vihanneksia jokaisella aterialla.
+        Aluksi tämä tuntui haastavalta, mutta suunnitelmallisuus teki siitä helpompaa.
+        Vähitellen opin löytämään uusia lempireseptejä ja välipaloja.
+        Nyt ruokavalio tuntuu luontevalta osalta päivittäistä elämääni ja auttaa pysymään energisenä ja vahvana.
+        </p>
+        <button onclick="openModal('modal2')">Lue Lisää</button>
+    </div>
+</div>
+<!--Modal Ikkuna 2-->
+<div id="modal2" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <img src="images/Blog Box2 Image.jpg" alt="blogikuva">
+      <h2>Ruokavalio Reilaan</h2>
+      <p>Kun siirryin tiukempaan treeniohjelmaan, jouduin muuttamaan myös ruokailutottumuksiani.
+        Halusin varmistaa, että kehoni saa tarpeeksi polttoainetta toipuakseen ja kehittyäkseen.
+        Painotin proteiineja, hyviä rasvoja ja vihanneksia jokaisella aterialla.
+        Aluksi tämä tuntui haastavalta, mutta suunnitelmallisuus teki siitä helpompaa.
+        Vähitellen opin löytämään uusia lempireseptejä ja välipaloja.
+        Nyt ruokavalio tuntuu luontevalta osalta päivittäistä elämääni ja auttaa pysymään energisenä ja vahvana.</p>
+  </div>
+</div>
+  <!--box-3-->
+<div class="blog-box">
+  <!--img-->
+  <div class="blog-img"> 
+    <img src="images/Blog Box3 Image.jpg" alt="blogikuva">
+  </div>
+  <!--Text-->
+  <div class="blog-text">
+    <span>Dzen</span>
+    <a class="blog-title">Mielen Tärkeys Treenissä</a>
+    <p>Fyysisen treenin lisäksi olen alkanut kiinnittää enemmän huomiota myös mielen hyvinvointiin.
+        Meditointi ja kevyet venyttelyt ennen nukkumaanmenoa ovat auttaneet rauhoittumaan ja vähentämään stressiä.
+        Kun mieli on rauhallinen, huomaan olevani keskittyneempi myös treenatessa. Tämä on vaikuttanut positiivisesti niin tuloksiin kuin treenaamisen iloon.
+        Muistathan pitää huolta myös henkisestä hyvinvoinnistasi – se on yhtä tärkeää kuin fyysinenkin kunto!
+    </p>
+    <button onclick="openModal('modal3')">Lue Lisää</button>
+  </div>
+</div>
+<!--Modal ikkuna 3-->
+<div id="modal3" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal('modal3')">&times;</span>
+      <img src="images/Blog Box3 Image.jpg" alt="blogikuva">
+      <h2>Mielen Tärkeys Treenissä</h2>
+      <p>Fyysisen treenin lisäksi olen alkanut kiinnittää enemmän huomiota myös mielen hyvinvointiin.
+        Meditointi ja kevyet venyttelyt ennen nukkumaanmenoa ovat auttaneet rauhoittumaan ja vähentämään stressiä.
+        Kun mieli on rauhallinen, huomaan olevani keskittyneempi myös treenatessa. Tämä on vaikuttanut positiivisesti niin tuloksiin kuin treenaamisen iloon.
+        Muistathan pitää huolta myös henkisestä hyvinvoinnistasi – se on yhtä tärkeää kuin fyysinenkin kunto!</p>
+  </div>
+</div>
+<!--Box 4-->
+<div class="blog-box">
+  <!--img-->
+<div class="blog-img"> 
+  <img src="images/Blog Box 4 Picture.jpg" alt="blogikuva">
+</div>
+    <!--Text-->
+  <div class="blog-text">
+    <span>Inspiraatio</span>
+    <a class="blog-title">Aktiivitreenaajaksi Matkalla</a>
+    <p>Muistan vielä ensimmäiset viikot, kun aloitin harjoittelun kuntosalilla. 
+      Kaikki laitteet ja liikkeet tuntuivat aluksi vierailta ja monimutkaisilta, mutta päätin olla antamatta periksi. 
+      Aloitin yksinkertaisilla liikkeillä, kuten kyykyillä ja punnerruksilla, ja lisäsin vähitellen haastavampia harjoituksia. 
+      Kannustin asiakkaitani kokeilemaan eri lajeja ja löytämään heille sopivimman treenimuodon. 
+      Nyt, parin vuoden aktiivisen harjoittelun jälkeen, voin sanoa, että kuntosaliharjoittelu on parantanut elämänlaatuani huomattavasti. 
+      Joten jos tunnet olosi epävarmaksi salilla, älä huoli! Jokainen aloittaa jostain, ja kärsivällisyys sekä pitkäjänteisyys vievät pitkälle.</p>
+      <button onclick="openModal('modal4')">Lue Lisää</button>
+  </div>
+</div>
+<!--Modal Ikkuna 4-->
+<div id="modal4" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal('modal4')">&times;</span>
+      <img src="images/Blog Box 4 Picture.jpg" alt="blogikuva">
+      <h2>Aktiivitreenaajaksi Matkalla</h2>
+      <p>Muistan vielä ensimmäiset viikot, kun aloitin harjoittelun kuntosalilla. 
+        Kaikki laitteet ja liikkeet tuntuivat aluksi vierailta ja monimutkaisilta, mutta päätin olla antamatta periksi. 
+        Aloitin yksinkertaisilla liikkeillä, kuten kyykyillä ja punnerruksilla, ja lisäsin vähitellen haastavampia harjoituksia. 
+        Kannustin asiakkaitani kokeilemaan eri lajeja ja löytämään heille sopivimman treenimuodon. 
+        Nyt, parin vuoden aktiivisen harjoittelun jälkeen, voin sanoa, että kuntosaliharjoittelu on parantanut elämänlaatuani huomattavasti. 
+        Joten jos tunnet olosi epävarmaksi salilla, älä huoli! Jokainen aloittaa jostain, ja kärsivällisyys sekä pitkäjänteisyys vievät pitkälle.</p>
+  </div>
+</div>
+<!--Box5-->
+<div class="blog-box">
+  <!--img-->
+  <div class="blog-img"> 
+    <img src="images/Blog Box 5 Picture.jpg" alt="blogikuva">
+  </div>
+  <!--Text-->
+  <div class="blog-text">
+    <span>Ihmiset</span>
+    <a class="blog-title">Tukeva Treeniyhteisö</a>
+    <p>Yksi parhaista asioista omassa kuntosalissani on yhteisö, joka kannustaa ja tukee toinen toistaan.
+       Järjestämme säännöllisesti yhteisiä harjoituksia ja workshoppeja, joissa jäsenet voivat oppia uusia taitoja ja tavata samanhenkisiä ihmisiä.
+        On hienoa nähdä, kuinka jäsenet innostuvat toistensa saavutuksista ja jakavat omia kokemuksiaan. 
+        Yhteishenki salillamme luo positiivisen ilmapiirin, jossa jokainen tuntee olevansa tervetullut. 
+        Jos etsit uutta salia tai treenipaikkaa, etsi sellainen, jossa tunnet olosi hyväksi ja jossa yhteisö tukee tavoitteitasi.
+    </p>
+    <button onclick="openModal('modal5')">Lue Lisää</button>
+  </div>
+</div>
+<!--Modal ikkuna 5-->
+<div id="modal5" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal('modal5')">&times;</span>
+      <img src="images/Blog Box 5 Picture.jpg" alt="blogikuva">
+      <h2>Tukeva Treeniyhteisö</h2>
+      <p>Yksi parhaista asioista omassa kuntosalissani on yhteisö, joka kannustaa ja tukee toinen toistaan.
+        Järjestämme säännöllisesti yhteisiä harjoituksia ja workshoppeja, joissa jäsenet voivat oppia uusia taitoja ja tavata samanhenkisiä ihmisiä.
+         On hienoa nähdä, kuinka jäsenet innostuvat toistensa saavutuksista ja jakavat omia kokemuksiaan. 
+         Yhteishenki salillamme luo positiivisen ilmapiirin, jossa jokainen tuntee olevansa tervetullut. 
+         Jos etsit uutta salia tai treenipaikkaa, etsi sellainen, jossa tunnet olosi hyväksi ja jossa yhteisö tukee tavoitteitasi.</p>
+  </div>
+</div>
+<!--Box 6-->
+<div class="blog-box">
+  <div class="blog-img"> 
+      <img src="images/Blog Box 6 Picture.jpg" alt="blogikuva">
+  </div>
+  <div class="blog-text">
+      <span>Inspiraatio</span>
+      <a class="blog-title">Treeniä Tekniikalla</a>
+      <p>Monet asiakkaistani haluavat saada parhaat tulokset mahdollisimman nopeasti.
+        Kuitenkin tekniikan merkitystä ei voi korostaa liikaa.
+        Väärällä tekniikalla treenaaminen voi johtaa loukkaantumisiin ja hidastaa kehitystä.
+        Siksi panostan paljon siihen, että asiakkaani oppivat oikean suoritustavan jo alusta alkaen.
+        Olipa kyseessä maastaveto, penkkipunnerrus tai kyykky, oikea tekniikka varmistaa turvallisen ja tehokkaan harjoittelun.
+        Jos haluat parantaa tuloksiasi, kiinnitä huomiota tekniikkaan tai kysy neuvoa valmentajalta.
+        Pienillä korjauksilla voi olla suuri vaikutus suorituksiin!</p>
+      <button onclick="openModal('modal6')">Lue Lisää</button>
+  </div>
+</div>
+
+<!--Modaal ikkuna 6-->
+<div id="modal6" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal('modal6')">&times;</span>
+      <img src="images/Blog Box 6 Picture.jpg" alt="blogikuva">
+      <h2>Treeniä Tekniikalla</h2>
+      <p>Monet asiakkaistani haluavat saada parhaat tulokset mahdollisimman nopeasti.
+        Kuitenkin tekniikan merkitystä ei voi korostaa liikaa.
+        Väärällä tekniikalla treenaaminen voi johtaa loukkaantumisiin ja hidastaa kehitystä.
+        Siksi panostan paljon siihen, että asiakkaani oppivat oikean suoritustavan jo alusta alkaen.
+        Olipa kyseessä maastaveto, penkkipunnerrus tai kyykky, oikea tekniikka varmistaa turvallisen ja tehokkaan harjoittelun.
+        Jos haluat parantaa tuloksiasi, kiinnitä huomiota tekniikkaan tai kysy neuvoa valmentajalta.
+        Pienillä korjauksilla voi olla suuri vaikutus suorituksiin!</p>
+  </div>
+</div>
+<script src="Modal_Windows.js"></script>
+
+
+</div>
+</section>
+
+<!--FOOTER-->
+<div class="footerContainer">
+  <footer class="footer">
+    <!--Box-1-->
+    <div class="grid-footer">
+      <div class="footerAboutteksti">
+        <h5 class="footerIsoTeksti">Sosiaaliset Mediat</h5>
+        <p class="infoPieniTeksti">
+        Seuraa meitä myös näissä!
+        </p>
+      
+       <!--painikkeet (näihin pitää vielä lisätä kuvat)-->
+      
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        
+      </div>
+    </div>
+    <!--box-2-->
+    <div class="grid-footer">
+      <div class="yhteystiedot">
+        <h5 class="footerIsoTeksti">Yhteystiedot</h5>
+        <ul class="yhteystiedotPieniTeksti">
+          <li>Puhelinnumero: 050 123 456 78</li>
+          <li>Osoite: Keskikatu 3 Kerava 04230</li>
+          <li>Sähköposti: Sara.Strong@gmail.fi</li>
+        </ul>
+      </div>
+    </div>
+    <!--box-3-->
+    <div class="grid-footer">
+      <div class="aukioloajat">
+        <h5 class="footerIsoTeksti">Aukioloajat</h5>
+        <ul class="yhteystiedotPieniTeksti">
+          <li>Ma - Pe:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:00 - 21:00</li>
+          <li>Lauantai:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00 - 20:00</li>
+          <li>Sunnuntai:&nbsp;&nbsp;&nbsp;10:00 - 20:00</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+
+
+
+  </body>
+</html>
