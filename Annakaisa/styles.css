@@ -346,7 +346,7 @@ div.Kalenteri {
 
 /*Blogi*/
 .palvelut-background {
-    background-image: url('images/PalvelutFoto1.jpeg');
+    background-image: url('images/pohja.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Фиксация фона при прокрутке */
