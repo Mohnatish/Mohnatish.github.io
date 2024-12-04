@@ -345,6 +345,60 @@ div.Kalenteri {
  }
 
 /*Blogi*/
+.palvelut-background {
+    background-image: url('images/PalvelutFoto1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Фиксация фона при прокрутке */
+    padding: 50px 20px; /* Отступы для удобного размещения контента */
+    color: #fff; /* Белый цвет текста для контраста */
+  }
+  
+  .Palvelut-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .palvelut-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .palvelut-box {
+    background: rgba(0, 0, 0, 0.6); /* Прозрачный черный фон для текста */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .palvelut-box h4 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .palvelut-box p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .palvelut-box button {
+    background: #ff6700;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .palvelut-box button:hover {
+    background: #e55a00;
+  }
+  
 
 #blog{
     display: flex;
